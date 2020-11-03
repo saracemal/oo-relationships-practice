@@ -15,16 +15,16 @@ Create the necessary methods to connect these classes.
 
 #### Listing
 
-- #guests
-  - returns an array of all guests who have stayed at a listing
-- #trips
-  - returns an array of all trips at a listing
-- #trip_count
-  - returns the number of trips that have been taken to that listing
-- .all
-  - returns an array of all listings
-- .find_all_by_city(city)
-  - takes an argument of a city name (as a string) and returns all the listings for that city
+#- #guests
+  #- returns an array of all guests who have #stayed at a listing
+#- #trips
+  #- returns an array of all trips at a #listing
+#- #trip_count
+  #- returns the number of trips that have #been taken to that listing
+#- #.all
+  #- returns an array of all listings
+#- .find_all_by_city(city)
+  #- takes an argument of a city name (as a string) and returns all the listings for that city
 - .most_popular
   - finds the listing that has had the most trips
 
@@ -36,8 +36,8 @@ Create the necessary methods to connect these classes.
   - returns an array of all trips a guest has made
 - #trip_count
   - returns the number of trips a guest has taken
-- .all
-  - returns an array of all guests
+#- .all
+  #- returns an array of all guests
 - .pro_traveller
   - returns an array of all guests who have made over 1 trip
 - .find_all_by_name(name)
@@ -45,9 +45,9 @@ Create the necessary methods to connect these classes.
 
 #### Trip
 
-- #listing
-  - returns the listing object for the trip
-- #guest
-  - returns the guest object for the trip
-- .all
-  - returns an array of all trips
+#- #listing
+  #- returns the listing object for the trip
+#- #guest
+  #- returns the guest object for the trip
+#- .all
+  #- returns an array of all trips
